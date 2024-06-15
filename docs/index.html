@@ -1,1 +1,85 @@
-<h1>skzkhrk</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="Shift_JIS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skzk</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+        }
+        .profile-container {
+            text-align: center;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+        }
+        .profile-name {
+            color: #222222;
+            font-size: 2em;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .profile-description {
+            color: #828282;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+            color: #828282;
+            margin-bottom: 20px;
+        }
+        .footer::before {
+            content: "";
+            display: block;
+            width: 80%;
+            height: 1px;
+            background-color: #ccc;
+            margin: 0 auto 20px auto;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icon {
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #828282;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="img/profile.png" alt="Profile Image" class="profile-image">
+        <div class="profile-name">skzk</div>
+        <div class="profile-description">
+            勢いで物事を始めるタイプ。<br>
+            アプリを作りたくてFlutter勉強中。<br>
+            メロンと生牡蠣が好きです。
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/skzkhrk" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/skzkhrk" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; 2024 skzkhrk. All rights reserved.
+    </div>
+</body>
+</html>
