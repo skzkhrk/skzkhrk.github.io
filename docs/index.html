@@ -12,13 +12,16 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #ffffff;
             user-select: none;
+            overflow: auto;
         }
         .profile-container {
             text-align: center;
+            padding: 20px;
+            margin-top: 50px;
         }
         .profile-image {
             border-radius: 50%;
@@ -37,13 +40,12 @@
             line-height: 1.6;
         }
         .footer {
-            position: absolute;
-            bottom: 10px;
             width: 100%;
             text-align: center;
             font-size: 0.8em;
             color: #828282;
-            margin-bottom: 20px;
+            margin-top: 20px;
+            padding-bottom: 20px;
         }
         .footer::before {
             content: "";
